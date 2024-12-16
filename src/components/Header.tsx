@@ -19,13 +19,13 @@ export function Header() {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com" className="text-gray-600 hover:text-black transition-colors">
+            <a href="https://github.com" className="text-gray-600 hover:text-black transition-colors" title="GitHub">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" className="text-gray-600 hover:text-black transition-colors">
+            <a href="https://linkedin.com" className="text-gray-600 hover:text-black transition-colors" title="LinkedIn">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:hello@example.com" className="text-gray-600 hover:text-black transition-colors">
+            <a href="mailto:hello@example.com" className="text-gray-600 hover:text-black transition-colors" title="Email">
               <Mail size={20} />
             </a>
           </div>
