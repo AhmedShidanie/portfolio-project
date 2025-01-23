@@ -8,7 +8,7 @@ export function Header() {
     <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-2xl font-bold">Ahmed Omar Portfolio</div>
+          <div className="text-2xl font-bold">Ahmed Omar</div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
@@ -19,13 +19,13 @@ export function Header() {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com" className="text-gray-600 hover:text-black transition-colors" title="GitHub">
+            <a href="https://github.com/AhmedShidanie" className="text-gray-600 hover:text-black transition-colors" title="GitHub">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" className="text-gray-600 hover:text-black transition-colors" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/ahmed-hassan-06a221335/" className="text-gray-600 hover:text-black transition-colors" title="LinkedIn">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:hello@example.com" className="text-gray-600 hover:text-black transition-colors" title="Email">
+            <a href="mailto:axmaddahir25@gmail.com" className="text-gray-600 hover:text-black transition-colors" title="Email">
               <Mail size={20} />
             </a>
           </div>

@@ -1,29 +1,28 @@
-import React from 'react';
-import { Github, Linkedin, Twitter, Instagram } from 'lucide-react';
+import { Github, Linkedin, Facebook, Youtube } from 'lucide-react';
 
 const socialLinks = [
   {
     name: 'GitHub',
     icon: Github,
-    url: 'https://github.com',
+    url: 'https://github.com/AhmedShidanie',
     color: 'hover:text-gray-900'
   },
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    url: 'https://linkedin.com',
+    url: 'https://www.linkedin.com/in/ahmed-hassan-06a221335/',
     color: 'hover:text-blue-600'
   },
   {
-    name: 'Twitter',
-    icon: Twitter,
-    url: 'https://twitter.com',
+    name: 'Facebook',
+    icon: Facebook,
+    url: 'https://www.facebook.com/AHMEDOMAR.SHINE/',
     color: 'hover:text-blue-400'
   },
   {
-    name: 'Instagram',
-    icon: Instagram,
-    url: 'https://instagram.com',
+    name: 'YouTube',
+    icon: Youtube,
+    url: 'https://www.youtube.com/@AHMEDOMAR.SHIINE',
     color: 'hover:text-pink-600'
   }
 ];
